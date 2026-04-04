@@ -1,11 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Women farmer groups">
-  <rect width="1200" height="800" fill="#f6efe0"/>
-  <path d="M0 560C170 500 380 590 600 530C820 470 1000 550 1200 500V800H0Z" fill="#94ad77"/>
-  <g fill="#f3ddbb" stroke="#805737" stroke-width="5">
-    <circle cx="250" cy="360" r="70"/><circle cx="470" cy="330" r="70"/><circle cx="700" cy="370" r="70"/><circle cx="930" cy="340" r="70"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Women farmers harvesting millets in Himalayas">
+  <defs>
+    <linearGradient id="gsky2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0d89a"/>
+      <stop offset="50%" stop-color="#f4b860"/>
+      <stop offset="100%" stop-color="#c87a30"/>
+    </linearGradient>
+    <linearGradient id="gground" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5a9640"/>
+      <stop offset="100%" stop-color="#2d6a20"/>
+    </linearGradient>
+  </defs>
+  <!-- Golden hour sky -->
+  <rect width="1200" height="800" fill="url(#gsky2)"/>
+  <!-- Mountains in silhouette -->
+  <path d="M0 320 L200 140 L370 250 L540 100 L720 220 L900 80 L1080 200 L1200 120 L1200 450 L0 450Z" fill="#4a6a5a" opacity="0.6"/>
+  <path d="M540 100 L580 133 L500 131Z" fill="#ffe8c8" opacity="0.7"/>
+  <path d="M900 80 L942 114 L860 112Z" fill="#ffe8c8" opacity="0.75"/>
+  <!-- Ground field -->
+  <path d="M0 500 Q600 465 1200 500 L1200 800 L0 800Z" fill="url(#gground)"/>
+  <!-- Millet stalks in foreground -->
+  <g stroke="#8bc040" stroke-width="3" fill="none">
+    <line x1="80" y1="700" x2="80" y2="450"/><line x1="150" y1="710" x2="150" y2="440"/>
+    <line x1="220" y1="705" x2="220" y2="445"/><line x1="290" y1="700" x2="290" y2="450"/>
+    <line x1="360" y1="710" x2="360" y2="440"/><line x1="840" y1="700" x2="840" y2="450"/>
+    <line x1="910" y1="710" x2="910" y2="440"/><line x1="980" y1="705" x2="980" y2="445"/>
+    <line x1="1050" y1="700" x2="1050" y2="452"/><line x1="1120" y1="708" x2="1120" y2="442"/>
   </g>
-  <g stroke="#cc8b38" stroke-width="9" fill="none" stroke-linecap="round">
-    <path d="M320 425L410 365"/><path d="M540 370L630 395"/><path d="M770 410L870 375"/>
+  <!-- Millet heads -->
+  <g fill="#c8a030">
+    <ellipse cx="80" cy="450" rx="8" ry="20"/><ellipse cx="150" cy="440" rx="8" ry="20"/>
+    <ellipse cx="220" cy="445" rx="8" ry="20"/><ellipse cx="290" cy="450" rx="8" ry="20"/>
+    <ellipse cx="360" cy="440" rx="8" ry="20"/><ellipse cx="840" cy="450" rx="8" ry="20"/>
+    <ellipse cx="910" cy="440" rx="8" ry="20"/><ellipse cx="980" cy="445" rx="8" ry="20"/>
+    <ellipse cx="1050" cy="452" rx="8" ry="20"/><ellipse cx="1120" cy="442" rx="8" ry="20"/>
   </g>
-  <text x="60" y="110" fill="#5f4028" font-size="62" font-family="Georgia, serif">Women-Led Farmer Clusters</text>
+  <!-- Women farmers - figure 1 -->
+  <circle cx="440" cy="480" r="28" fill="#e8a070"/>
+  <rect x="414" y="508" width="52" height="72" fill="#c03a6a" rx="6"/>
+  <ellipse cx="440" cy="468" rx="30" ry="12" fill="#e85030" opacity="0.8"/>
+  <line x1="440" y1="508" x2="395" y2="560" stroke="#c03a6a" stroke-width="12" stroke-linecap="round"/>
+  <line x1="440" y1="508" x2="488" y2="548" stroke="#c03a6a" stroke-width="12" stroke-linecap="round"/>
+  <rect x="427" y="580" width="14" height="32" fill="#8b5020" rx="4"/>
+  <rect x="449" y="580" width="14" height="32" fill="#8b5020" rx="4"/>
+  <!-- Basket for figure 1 -->
+  <ellipse cx="500" cy="560" rx="32" ry="20" fill="#c08840"/>
+  <path d="M468 555 Q500 535 532 555 L532 575 Q500 590 468 575Z" fill="#a06020"/>
+  <!-- Women farmers - figure 2 -->
+  <circle cx="680" cy="475" r="28" fill="#d09070"/>
+  <rect x="654" y="503" width="52" height="72" fill="#4a70c0" rx="6"/>
+  <ellipse cx="680" cy="463" rx="30" ry="12" fill="#c83030" opacity="0.8"/>
+  <line x1="680" y1="503" x2="635" y2="555" stroke="#4a70c0" stroke-width="12" stroke-linecap="round"/>
+  <line x1="680" y1="503" x2="728" y2="543" stroke="#4a70c0" stroke-width="12" stroke-linecap="round"/>
+  <rect x="667" y="575" width="14" height="32" fill="#8b5020" rx="4"/>
+  <rect x="689" y="575" width="14" height="32" fill="#8b5020" rx="4"/>
+  <!-- Women farmers - figure 3 -->
+  <circle cx="760" cy="480" r="28" fill="#e8a070"/>
+  <rect x="734" y="508" width="52" height="72" fill="#2d6a4f" rx="6"/>
+  <ellipse cx="760" cy="468" rx="30" ry="12" fill="#f0c030" opacity="0.9"/>
+  <line x1="760" y1="508" x2="715" y2="558" stroke="#2d6a4f" stroke-width="12" stroke-linecap="round"/>
+  <line x1="760" y1="508" x2="808" y2="545" stroke="#2d6a4f" stroke-width="12" stroke-linecap="round"/>
+  <rect x="747" y="580" width="14" height="32" fill="#8b5020" rx="4"/>
+  <rect x="769" y="580" width="14" height="32" fill="#8b5020" rx="4"/>
+  <!-- Label -->
+  <rect x="30" y="30" width="460" height="76" rx="12" fill="rgba(27,67,50,0.88)"/>
+  <text x="260" y="65" text-anchor="middle" fill="#f9c784" font-size="22" font-family="Georgia, serif" font-weight="bold">Women-Led Harvest Communities</text>
+  <text x="260" y="91" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="14" font-family="sans-serif">Empowering 5000+ women farmers across Uttarakhand</text>
 </svg>

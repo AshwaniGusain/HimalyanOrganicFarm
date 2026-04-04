@@ -1,7 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Millet harvest in Himalayas">
-  <rect width="1200" height="800" fill="#eaf3dd"/>
-  <path d="M0 470L200 380L420 460L620 350L860 430L1200 320V800H0Z" fill="#8fb46f"/>
-  <path d="M0 560C260 520 470 590 730 540C930 500 1040 540 1200 510V800H0Z" fill="#688f52"/>
-  <path d="M60 700C240 660 430 700 640 650C860 600 1040 640 1160 610" stroke="#d8a355" stroke-width="30" fill="none" stroke-linecap="round"/>
-  <text x="60" y="110" fill="#304d2a" font-size="64" font-family="Georgia, serif">Himalayan Millet Harvest</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Himalayan terraced millet farm panorama">
+  <defs>
+    <linearGradient id="gsky1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9ecfe8"/>
+      <stop offset="60%" stop-color="#c8e8d0"/>
+      <stop offset="100%" stop-color="#8ec8a0"/>
+    </linearGradient>
+    <linearGradient id="ghill1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3a7d5a"/>
+      <stop offset="100%" stop-color="#1b4332"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#gsky1)"/>
+  <!-- Far mountains -->
+  <path d="M0 350 L150 180 L280 280 L430 140 L600 250 L750 110 L920 240 L1080 130 L1200 220 L1200 500 L0 500Z" fill="#b8d5e0" opacity="0.7"/>
+  <!-- Snow caps -->
+  <path d="M430 140 L465 170 L395 168Z" fill="#fff" opacity="0.9"/>
+  <path d="M750 110 L790 145 L712 143Z" fill="#fff" opacity="0.95"/>
+  <path d="M1080 130 L1118 162 L1044 160Z" fill="#fff" opacity="0.9"/>
+  <!-- Terraced hillside -->
+  <path d="M0 480 Q300 430 600 470 Q900 510 1200 455 L1200 800 L0 800Z" fill="url(#ghill1)"/>
+  <!-- Terrace rows with crops -->
+  <g opacity="0.9">
+    <path d="M50 510 Q200 498 350 508 Q500 518 650 505 Q800 492 950 502 Q1100 512 1200 500" stroke="#52b788" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M30 550 Q180 536 340 546 Q500 556 660 542 Q820 528 980 542 Q1100 552 1200 542" stroke="#40a070" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M0 592 Q160 578 340 588 Q520 598 700 583 Q880 568 1060 582 Q1140 590 1200 584" stroke="#2d6a4f" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M0 636 Q180 620 380 632 Q580 644 780 628 Q980 612 1200 628" stroke="#1b4332" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M0 680 Q200 665 420 676 Q640 687 860 672 Q1080 657 1200 672" stroke="#154228" stroke-width="22" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Crop texture dots -->
+  <g fill="#a8e8c0" opacity="0.7">
+    <circle cx="100" cy="507" r="5"/><circle cx="150" cy="503" r="4"/><circle cx="220" cy="505" r="5"/>
+    <circle cx="300" cy="509" r="4"/><circle cx="380" cy="504" r="5"/><circle cx="460" cy="502" r="4"/>
+    <circle cx="550" cy="507" r="5"/><circle cx="640" cy="503" r="4"/><circle cx="720" cy="499" r="5"/>
+    <circle cx="820" cy="503" r="4"/><circle cx="900" cy="500" r="5"/><circle cx="990" cy="504" r="4"/>
+    <circle cx="1080" cy="502" r="5"/><circle cx="1150" cy="498" r="4"/>
+  </g>
+  <!-- Label -->
+  <rect x="30" y="30" width="420" height="76" rx="12" fill="rgba(27,67,50,0.85)"/>
+  <text x="240" y="65" text-anchor="middle" fill="#f9c784" font-size="22" font-family="Georgia, serif" font-weight="bold">Himalayan Terraced Farms</text>
+  <text x="240" y="91" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="14" font-family="sans-serif">Organic millet cultivation at 2000m altitude</text>
 </svg>

@@ -1,7 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Millet ready for export">
-  <rect width="1200" height="800" fill="#e7eff7"/>
-  <path d="M100 520h260v180H100zM420 490h260v210H420zM740 450h320v250H740z" fill="#7b9bb9"/>
-  <path d="M100 520h260v60H100zM420 490h260v60H420zM740 450h320v60H740z" fill="#557a9f"/>
-  <path d="M0 640C220 610 460 680 730 640C920 610 1030 630 1200 610V800H0Z" fill="#7fa26e"/>
-  <text x="60" y="110" fill="#24445f" font-size="62" font-family="Georgia, serif">Export-Ready Organic Lots</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Organic millet export packaging warehouse">
+  <defs>
+    <linearGradient id="gwall" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e8dcc8"/>
+      <stop offset="100%" stop-color="#c8b890"/>
+    </linearGradient>
+    <linearGradient id="gfloor" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b0a890"/>
+      <stop offset="100%" stop-color="#8a8070"/>
+    </linearGradient>
+  </defs>
+  <!-- Warehouse wall -->
+  <rect width="1200" height="800" fill="url(#gwall)"/>
+  <!-- Floor -->
+  <path d="M0 600 L1200 540 L1200 800 L0 800Z" fill="url(#gfloor)"/>
+  <!-- Back wall structure -->
+  <rect x="0" y="0" width="1200" height="50" fill="#c8b890"/>
+  <line x1="0" y1="50" x2="1200" y2="50" stroke="#a09078" stroke-width="3"/>
+  <!-- Shelving units -->
+  <rect x="60" y="80" width="280" height="520" fill="#c0a870" rx="5"/>
+  <rect x="60" y="80" width="280" height="8" fill="#b09060"/>
+  <rect x="60" y="212" width="280" height="8" fill="#b09060"/>
+  <rect x="60" y="344" width="280" height="8" fill="#b09060"/>
+  <rect x="60" y="476" width="280" height="8" fill="#b09060"/>
+  <rect x="860" y="80" width="280" height="520" fill="#c0a870" rx="5"/>
+  <rect x="860" y="80" width="280" height="8" fill="#b09060"/>
+  <rect x="860" y="212" width="280" height="8" fill="#b09060"/>
+  <rect x="860" y="344" width="280" height="8" fill="#b09060"/>
+  <rect x="860" y="476" width="280" height="8" fill="#b09060"/>
+  <!-- Sacks on left shelf -->
+  <g fill="#c8a060">
+    <ellipse cx="115" cy="205" rx="42" ry="55"/><ellipse cx="200" cy="205" rx="42" ry="55"/>
+    <ellipse cx="283" cy="205" rx="42" ry="55"/>
+    <ellipse cx="115" cy="338" rx="42" ry="55"/><ellipse cx="200" cy="338" rx="42" ry="55"/>
+    <ellipse cx="283" cy="338" rx="42" ry="55"/>
+    <ellipse cx="115" cy="468" rx="42" ry="55"/><ellipse cx="200" cy="468" rx="42" ry="55"/>
+    <ellipse cx="283" cy="468" rx="42" ry="55"/>
+  </g>
+  <g fill="#a07840">
+    <text x="115" y="208" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">RAGI</text>
+    <text x="200" y="208" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">BAJRA</text>
+    <text x="283" y="208" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">KODO</text>
+  </g>
+  <!-- Boxes in center -->
+  <g>
+    <rect x="430" y="340" width="160" height="120" fill="#8fc48a" rx="4"/>
+    <text x="510" y="408" text-anchor="middle" fill="#1b4332" font-size="14" font-family="sans-serif" font-weight="bold">HOF</text>
+    <text x="510" y="426" text-anchor="middle" fill="#1b4332" font-size="10" font-family="sans-serif">ORGANIC</text>
+    <rect x="610" y="355" width="150" height="105" fill="#52b788" rx="4"/>
+    <text x="685" y="410" text-anchor="middle" fill="#fff" font-size="14" font-family="sans-serif" font-weight="bold">HOF</text>
+    <text x="685" y="428" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif">EXPORT</text>
+    <rect x="440" y="460" width="300" height="135" fill="#2d6a4f" rx="5"/>
+    <text x="590" y="530" text-anchor="middle" fill="#f9c784" font-size="20" font-family="Georgia, serif" font-weight="bold">Himalyan Organic</text>
+    <text x="590" y="555" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="13" font-family="sans-serif">Premium Millet Export</text>
+    <text x="590" y="575" text-anchor="middle" fill="#d4a843" font-size="12" font-family="sans-serif">Certified Organic · Non-GMO · Gluten Free</text>
+  </g>
+  <!-- Sacks on right shelf -->
+  <g fill="#c8a060">
+    <ellipse cx="915" cy="205" rx="42" ry="55"/><ellipse cx="1000" cy="205" rx="42" ry="55"/>
+    <ellipse cx="1085" cy="205" rx="42" ry="55"/>
+    <ellipse cx="915" cy="338" rx="42" ry="55"/><ellipse cx="1000" cy="338" rx="42" ry="55"/>
+    <ellipse cx="1085" cy="338" rx="42" ry="55"/>
+    <ellipse cx="915" cy="468" rx="42" ry="55"/><ellipse cx="1000" cy="468" rx="42" ry="55"/>
+    <ellipse cx="1085" cy="468" rx="42" ry="55"/>
+  </g>
+  <!-- Worker figure -->
+  <circle cx="490" cy="272" r="22" fill="#e8a070"/>
+  <rect x="472" y="294" width="40" height="50" fill="#1b4332" rx="4"/>
+  <rect x="466" y="294" width="12" height="36" fill="#1b4332" rx="4"/>
+  <rect x="508" y="294" width="12" height="36" fill="#1b4332" rx="4"/>
+  <rect x="479" y="344" width="12" height="28" fill="#5a3a1a" rx="3"/>
+  <rect x="496" y="344" width="12" height="28" fill="#5a3a1a" rx="3"/>
+  <!-- Label banner -->
+  <rect x="30" y="30" width="420" height="76" rx="12" fill="rgba(27,67,50,0.88)"/>
+  <text x="240" y="65" text-anchor="middle" fill="#f9c784" font-size="22" font-family="Georgia, serif" font-weight="bold">Export-Ready Packaging</text>
+  <text x="240" y="91" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="14" font-family="sans-serif">B2B bulk supply · 50kg–1000kg lots available</text>
 </svg>

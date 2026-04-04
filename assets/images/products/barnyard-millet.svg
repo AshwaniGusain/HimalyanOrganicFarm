@@ -1,9 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Barnyard millet">
-  <rect width="900" height="650" fill="#edf2df"/>
-  <ellipse cx="450" cy="355" rx="320" ry="170" fill="#c9d8ac"/>
-  <ellipse cx="450" cy="330" rx="300" ry="145" fill="#98b876"/>
-  <g fill="#f3e6bf">
-    <circle cx="320" cy="330" r="16"/><circle cx="360" cy="370" r="13"/><circle cx="410" cy="300" r="15"/><circle cx="470" cy="365" r="15"/><circle cx="525" cy="315" r="14"/><circle cx="575" cy="352" r="15"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Barnyard millet organic export">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#edf5e8"/>
+      <stop offset="100%" stop-color="#d8eccc"/>
+    </linearGradient>
+    <linearGradient id="bowl2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8fc48a"/>
+      <stop offset="100%" stop-color="#4a8a55"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg2)"/>
+  <ellipse cx="450" cy="430" rx="310" ry="150" fill="#8fc48a" opacity="0.4"/>
+  <ellipse cx="450" cy="420" rx="295" ry="140" fill="url(#bowl2)"/>
+  <ellipse cx="450" cy="400" rx="270" ry="120" fill="#5a9660"/>
+  <ellipse cx="450" cy="388" rx="250" ry="105" fill="#4a8050"/>
+  <g fill="#f3e8c0">
+    <circle cx="310" cy="395" r="13"/><circle cx="348" cy="375" r="12"/>
+    <circle cx="385" cy="390" r="14"/><circle cx="422" cy="372" r="12"/>
+    <circle cx="458" cy="386" r="13"/><circle cx="494" cy="370" r="12"/>
+    <circle cx="528" cy="385" r="14"/><circle cx="562" cy="375" r="13"/>
+    <circle cx="592" cy="392" r="12"/>
+    <circle cx="330" cy="415" r="12"/><circle cx="368" cy="406" r="13"/>
+    <circle cx="405" cy="412" r="12"/><circle cx="442" cy="405" r="13"/>
+    <circle cx="478" cy="410" r="12"/><circle cx="512" cy="406" r="14"/>
+    <circle cx="548" cy="410" r="13"/><circle cx="572" cy="415" r="12"/>
   </g>
-  <text x="50" y="95" fill="#3f5a35" font-size="58" font-family="Georgia, serif">Barnyard Millet</text>
+  <g fill="#e0d080">
+    <circle cx="325" cy="382" r="10"/><circle cx="365" cy="362" r="9"/>
+    <circle cx="408" cy="378" r="11"/><circle cx="468" cy="360" r="9"/>
+    <circle cx="508" cy="374" r="10"/><circle cx="540" cy="365" r="9"/>
+    <circle cx="578" cy="378" r="11"/>
+  </g>
+  <line x1="450" y1="200" x2="450" y2="310" stroke="#1b4332" stroke-width="5"/>
+  <line x1="450" y1="225" x2="418" y2="255" stroke="#1b4332" stroke-width="4"/>
+  <line x1="450" y1="248" x2="484" y2="275" stroke="#1b4332" stroke-width="4"/>
+  <line x1="450" y1="270" x2="412" y2="296" stroke="#1b4332" stroke-width="4"/>
+  <g fill="#c8c858">
+    <ellipse cx="418" cy="255" rx="9" ry="5" transform="rotate(-25 418 255)"/>
+    <ellipse cx="484" cy="275" rx="9" ry="5" transform="rotate(25 484 275)"/>
+    <ellipse cx="412" cy="296" rx="9" ry="5" transform="rotate(-20 412 296)"/>
+    <ellipse cx="450" cy="200" rx="10" ry="6"/>
+  </g>
+  <rect x="40" y="50" width="360" height="80" rx="12" fill="rgba(27,67,50,0.88)"/>
+  <text x="220" y="85" text-anchor="middle" fill="#f9c784" font-size="26" font-family="Georgia, serif" font-weight="bold">Barnyard Millet</text>
+  <text x="220" y="113" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="15" font-family="sans-serif">High-Altitude Himalayan Grain</text>
+  <circle cx="820" cy="110" r="58" fill="#2d6a4f"/>
+  <circle cx="820" cy="110" r="50" fill="none" stroke="#d4a843" stroke-width="2"/>
+  <text x="820" y="103" text-anchor="middle" fill="#f9c784" font-size="13" font-family="sans-serif" font-weight="bold">100%</text>
+  <text x="820" y="120" text-anchor="middle" fill="#fff" font-size="11" font-family="sans-serif">ORGANIC</text>
+  <text x="820" y="136" text-anchor="middle" fill="#d4a843" font-size="10" font-family="sans-serif">EXPORT READY</text>
 </svg>

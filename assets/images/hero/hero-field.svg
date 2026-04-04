@@ -1,18 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Himalayan millet farm">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Himalayan terraced millet fields at dawn">
   <defs>
     <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#c8e3ff"/>
-      <stop offset="1" stop-color="#f7fbff"/>
+      <stop offset="0%" stop-color="#0a2342"/>
+      <stop offset="40%" stop-color="#1a5276"/>
+      <stop offset="70%" stop-color="#e4965a"/>
+      <stop offset="100%" stop-color="#f9c784"/>
     </linearGradient>
-    <linearGradient id="hill" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#74a05a"/>
-      <stop offset="1" stop-color="#4d7a3e"/>
+    <linearGradient id="peak1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0f5f9"/>
+      <stop offset="35%" stop-color="#cdd8e0"/>
+      <stop offset="100%" stop-color="#7a9aaa"/>
     </linearGradient>
+    <linearGradient id="forest" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2d6a4f"/>
+      <stop offset="100%" stop-color="#1b4332"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter>
   </defs>
   <rect width="1200" height="900" fill="url(#sky)"/>
-  <path d="M0 500L240 360L480 510L720 320L960 480L1200 370V900H0Z" fill="#7ba66c"/>
-  <path d="M0 560L220 430L480 580L760 410L1040 550L1200 460V900H0Z" fill="url(#hill)"/>
-  <path d="M60 760C240 700 410 720 580 670C770 620 950 650 1160 590" stroke="#e2b569" stroke-width="34" fill="none" stroke-linecap="round"/>
-  <path d="M90 820C270 760 440 780 610 730C790 680 980 710 1150 650" stroke="#cf9a45" stroke-width="34" fill="none" stroke-linecap="round"/>
-  <circle cx="990" cy="150" r="56" fill="#ffdc8f"/>
+  <circle cx="950" cy="310" r="70" fill="#f9c784" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="950" cy="310" r="44" fill="#f5a623" opacity="0.85"/>
+  <path d="M0 400 L150 200 L260 310 L380 160 L500 280 L620 140 L740 260 L860 120 L980 240 L1100 130 L1200 210 L1200 480 L0 480Z" fill="url(#peak1)"/>
+  <path d="M150 200 L200 245 L115 245Z" fill="#fff" opacity="0.9"/>
+  <path d="M380 160 L435 215 L325 215Z" fill="#fff" opacity="0.9"/>
+  <path d="M620 140 L680 200 L560 195Z" fill="#fff" opacity="0.88"/>
+  <path d="M860 120 L920 180 L800 175Z" fill="#fff" opacity="0.92"/>
+  <path d="M1100 130 L1155 185 L1040 182Z" fill="#fff" opacity="0.85"/>
+  <path d="M0 470 L180 340 L360 420 L560 300 L760 390 L960 270 L1200 360 L1200 560 L0 560Z" fill="#b0cad6" opacity="0.9"/>
+  <path d="M0 540 L80 510 L200 545 L360 500 L520 535 L680 495 L840 530 L1000 490 L1200 520 L1200 640 L0 640Z" fill="url(#forest)"/>
+  <g fill="#1b4332">
+    <polygon points="120,540 135,510 150,540"/>
+    <polygon points="148,540 165,505 182,540"/>
+    <polygon points="280,540 298,508 316,540"/>
+    <polygon points="460,540 478,507 496,540"/>
+    <polygon points="630,540 648,504 666,540"/>
+    <polygon points="820,540 840,503 860,540"/>
+    <polygon points="990,540 1010,506 1030,540"/>
+  </g>
+  <path d="M0 620 Q300 590 600 610 Q900 630 1200 600 L1200 660 Q900 690 600 670 Q300 650 0 680Z" fill="#52b788"/>
+  <path d="M0 680 Q300 650 600 670 Q900 690 1200 660 L1200 720 Q900 750 600 730 Q300 710 0 740Z" fill="#40916c"/>
+  <path d="M0 740 Q300 710 600 730 Q900 750 1200 720 L1200 900 L0 900Z" fill="#2d6a4f"/>
+  <g stroke="#d4a843" stroke-width="2.5" fill="none">
+    <line x1="80" y1="640" x2="80" y2="618"/><circle cx="80" cy="614" r="6" fill="#d4a843"/>
+    <line x1="180" y1="636" x2="180" y2="612"/><circle cx="180" cy="608" r="6" fill="#d4a843"/>
+    <line x1="300" y1="634" x2="300" y2="610"/><circle cx="300" cy="606" r="6" fill="#d4a843"/>
+    <line x1="440" y1="636" x2="440" y2="612"/><circle cx="440" cy="608" r="6" fill="#d4a843"/>
+    <line x1="580" y1="634" x2="580" y2="610"/><circle cx="580" cy="606" r="6" fill="#d4a843"/>
+    <line x1="720" y1="632" x2="720" y2="608"/><circle cx="720" cy="604" r="6" fill="#d4a843"/>
+    <line x1="860" y1="633" x2="860" y2="609"/><circle cx="860" cy="605" r="6" fill="#d4a843"/>
+    <line x1="1000" y1="632" x2="1000" y2="608"/><circle cx="1000" cy="604" r="6" fill="#d4a843"/>
+    <line x1="1120" y1="631" x2="1120" y2="607"/><circle cx="1120" cy="603" r="6" fill="#d4a843"/>
+  </g>
+  <g fill="#fff" opacity="0.65">
+    <circle cx="80" cy="55" r="2.5"/><circle cx="190" cy="35" r="2"/><circle cx="310" cy="75" r="2.5"/>
+    <circle cx="450" cy="45" r="2"/><circle cx="560" cy="28" r="2.5"/><circle cx="680" cy="60" r="2"/>
+    <circle cx="790" cy="40" r="2.5"/><circle cx="850" cy="22" r="2"/>
+  </g>
 </svg>
