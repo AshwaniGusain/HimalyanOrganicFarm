@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Millet harvest in Himalayas">
+  <rect width="1200" height="800" fill="#eaf3dd"/>
+  <path d="M0 470L200 380L420 460L620 350L860 430L1200 320V800H0Z" fill="#8fb46f"/>
+  <path d="M0 560C260 520 470 590 730 540C930 500 1040 540 1200 510V800H0Z" fill="#688f52"/>
+  <path d="M60 700C240 660 430 700 640 650C860 600 1040 640 1160 610" stroke="#d8a355" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <text x="60" y="110" fill="#304d2a" font-size="64" font-family="Georgia, serif">Himalayan Millet Harvest</text>
+</svg>

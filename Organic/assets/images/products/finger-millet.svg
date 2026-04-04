@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Finger millet">
+  <rect width="900" height="650" fill="#f8f0de"/>
+  <ellipse cx="450" cy="355" rx="320" ry="170" fill="#d9b18a"/>
+  <ellipse cx="450" cy="330" rx="300" ry="145" fill="#a56b45"/>
+  <g fill="#7f472c">
+    <circle cx="320" cy="330" r="18"/><circle cx="360" cy="370" r="14"/><circle cx="410" cy="300" r="16"/><circle cx="470" cy="365" r="17"/><circle cx="525" cy="315" r="15"/><circle cx="575" cy="352" r="16"/>
+  </g>
+  <text x="50" y="95" fill="#6e4a2e" font-size="58" font-family="Georgia, serif">Finger Millet (Ragi)</text>
+</svg>

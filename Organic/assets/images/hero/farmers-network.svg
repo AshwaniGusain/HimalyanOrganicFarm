@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Farmers network in the Himalayas">
+  <rect width="1200" height="900" fill="#eef5ea"/>
+  <path d="M0 620C210 530 410 620 620 570C820 520 1030 580 1200 520V900H0Z" fill="#8bb07b"/>
+  <path d="M0 700C200 620 420 700 620 650C860 590 1020 650 1200 610V900H0Z" fill="#5f8f53"/>
+  <g fill="#f2ddbb" stroke="#6a4a2a" stroke-width="4">
+    <circle cx="230" cy="420" r="55"/><circle cx="450" cy="360" r="55"/><circle cx="680" cy="410" r="55"/><circle cx="900" cy="350" r="55"/>
+  </g>
+  <g stroke="#c07d2a" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M280 470L400 390"/><path d="M500 390L630 430"/><path d="M730 430L850 380"/>
+  </g>
+  <text x="70" y="110" fill="#2f4f2d" font-size="50" font-family="Trebuchet MS, sans-serif">Community-first sourcing</text>
+</svg>

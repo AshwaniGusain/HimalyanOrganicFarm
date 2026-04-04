@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Women farmer groups">
+  <rect width="1200" height="800" fill="#f6efe0"/>
+  <path d="M0 560C170 500 380 590 600 530C820 470 1000 550 1200 500V800H0Z" fill="#94ad77"/>
+  <g fill="#f3ddbb" stroke="#805737" stroke-width="5">
+    <circle cx="250" cy="360" r="70"/><circle cx="470" cy="330" r="70"/><circle cx="700" cy="370" r="70"/><circle cx="930" cy="340" r="70"/>
+  </g>
+  <g stroke="#cc8b38" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M320 425L410 365"/><path d="M540 370L630 395"/><path d="M770 410L870 375"/>
+  </g>
+  <text x="60" y="110" fill="#5f4028" font-size="62" font-family="Georgia, serif">Women-Led Farmer Clusters</text>
+</svg>
