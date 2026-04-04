@@ -19,6 +19,7 @@ wrangler login
 From this folder (`Organic/worker`), run:
 
 ```bash
+wrangler secret put RESEND_API_KEY
 wrangler secret put FROM_EMAIL
 wrangler secret put TO_EMAIL
 wrangler secret put CC_EMAIL
@@ -27,7 +28,8 @@ wrangler secret put ALLOWED_ORIGINS
 
 Recommended values:
 
-- `FROM_EMAIL`: no-reply@himalyanorganicfarm.com
+- `RESEND_API_KEY`: your Resend API key (`re_...`)
+- `FROM_EMAIL`: `onboarding@resend.dev` for quick testing, then your verified domain sender
 - `TO_EMAIL`: ashwani12ksp@gmail.com
 - `CC_EMAIL`: ashwanigusain@live.com
 - `ALLOWED_ORIGINS`: comma-separated origins (example: `http://localhost:5500,https://<username>.github.io,https://himalyanorganicfarm.com`)

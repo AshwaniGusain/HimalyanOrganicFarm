@@ -71,8 +71,12 @@ export default {
       return jsonResponse({ ok: false, message: 'Missing or invalid fields' }, 400, corsHeaders);
     }
 
-    if (!env.FROM_EMAIL || !env.TO_EMAIL) {
-      return jsonResponse({ ok: false, message: 'Server email configuration missing' }, 500, corsHeaders);
+    if (!env.RESEND_API_KEY || !env.FROM_EMAIL || !env.TO_EMAIL) {
+      return jsonResponse(
+        { ok: false, message: 'Server email configuration missing (RESEND_API_KEY/FROM_EMAIL/TO_EMAIL)' },
+        500,
+        corsHeaders
+      );
     }
 
     const textBody = [
@@ -87,34 +91,18 @@ export default {
     ].join('\n');
 
     const mailPayload = {
-      personalizations: [
-        {
-          to: [
-            { email: env.TO_EMAIL },
-            ...(env.CC_EMAIL ? [{ email: env.CC_EMAIL }] : [])
-          ]
-        }
-      ],
-      from: {
-        email: env.FROM_EMAIL,
-        name: 'Himalyan Organic Farm Website'
-      },
-      reply_to: {
-        email
-      },
+      from: env.FROM_EMAIL,
+      to: [env.TO_EMAIL, ...(env.CC_EMAIL ? [env.CC_EMAIL] : [])],
       subject: `Bulk Millet Enquiry from ${business}`,
-      content: [
-        {
-          type: 'text/plain',
-          value: textBody
-        }
-      ]
+      text: textBody,
+      reply_to: email
     };
 
-    const mailRes = await fetch('https://api.mailchannels.net/tx/v1/send', {
+    const mailRes = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${env.RESEND_API_KEY}`
       },
       body: JSON.stringify(mailPayload)
     });

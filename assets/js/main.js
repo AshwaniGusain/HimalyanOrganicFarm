@@ -117,7 +117,16 @@ if (enquiryForm && sendQueryBtn && formStatus) {
       });
 
       if (!response.ok) {
-        throw new Error('API request failed');
+        let backendMessage = 'API request failed';
+        try {
+          const data = await response.json();
+          if (data?.message) {
+            backendMessage = data.message;
+          }
+        } catch {
+          // Keep fallback message when non-JSON error is returned.
+        }
+        throw new Error(backendMessage);
       }
 
       formStatus.textContent = 'Enquiry sent successfully. We will contact you soon.';
@@ -127,7 +136,7 @@ if (enquiryForm && sendQueryBtn && formStatus) {
       const isFetchFailure = error instanceof TypeError && /fetch/i.test(error.message || '');
       formStatus.textContent = isFetchFailure
         ? 'Unable to reach contact API. Check internet, Worker URL, and CORS origin settings.'
-        : 'Failed to send right now. Please try again or use WhatsApp.';
+        : `Failed to send: ${error.message || 'Please try again or use WhatsApp.'}`;
       formStatus.className = 'form-status error';
       console.error('Contact API send failed:', error);
     } finally {
