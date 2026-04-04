@@ -705,8 +705,26 @@ p {
 }
 
 @media (max-width: 780px) {
+  /* Remove backdrop-filter on mobile — it creates a containing block that breaks
+     position:fixed children, causing the drawer to render inside the nav bar */
+  .nav {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: var(--primary-dark);
+  }
+
   .nav-toggle {
     display: inline-block;
+  }
+
+  /* Dim overlay behind the drawer */
+  .nav-menu::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+    pointer-events: none;
   }
 
   .nav-menu {
@@ -714,14 +732,17 @@ p {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 260px;
-    background: var(--primary-dark);
-    padding: 5rem 1.2rem 1.2rem;
-    box-shadow: -4px 0 30px rgba(0,0,0,0.35);
+    width: 270px;
+    background: #1b4332;
+    background-image: none;
+    padding: 4.5rem 1.4rem 1.4rem;
+    box-shadow: -6px 0 40px rgba(0, 0, 0, 0.5);
     display: none;
     flex-direction: column;
-    gap: 0.2rem;
-    z-index: 200;
+    gap: 0.3rem;
+    z-index: 300;
+    overflow-y: auto;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .nav-menu.open {
@@ -729,9 +750,25 @@ p {
   }
 
   .nav-menu a {
-    font-size: 1rem;
-    padding: 0.7rem 0.9rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 0.85rem 1.1rem;
     border-radius: 10px;
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-menu a:hover,
+  .nav-menu a:focus-visible {
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff !important;
+  }
+
+  /* Keep toggle button above the open drawer so it stays tappable */
+  .nav-toggle {
+    position: relative;
+    z-index: 400;
   }
 
   .footer-wrap {
