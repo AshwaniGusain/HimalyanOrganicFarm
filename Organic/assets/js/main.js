@@ -10,7 +10,7 @@ const sendQueryBtn = document.querySelector('#send-query-btn');
 const formStatus = document.querySelector('#form-status');
 
 // Set this after deploying your worker endpoint.
-const CONTACT_API_ENDPOINT = 'https://YOUR_WORKER_SUBDOMAIN.workers.dev/api/contact';
+const CONTACT_API_ENDPOINT = 'https://himalyan-organic-contact-api.ashwani12ksp.workers.dev/api/contact';
 
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
