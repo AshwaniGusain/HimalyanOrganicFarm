@@ -90,9 +90,17 @@ export default {
       message || 'No message provided.'
     ].join('\n');
 
+    // With Resend free plan using onboarding@resend.dev, only the verified
+    // account email can receive. Once you add a verified domain in Resend,
+    // change FROM_EMAIL to youremail@yourdomain.com and CC will work for any address.
+    const recipients = [env.TO_EMAIL];
+    if (env.CC_EMAIL && env.CC_EMAIL !== env.TO_EMAIL) {
+      recipients.push(env.CC_EMAIL);
+    }
+
     const mailPayload = {
-      from: env.FROM_EMAIL,
-      to: [env.TO_EMAIL, ...(env.CC_EMAIL ? [env.CC_EMAIL] : [])],
+      from: `Himalyan Organic Farm <${env.FROM_EMAIL}>`,
+      to: recipients,
       subject: `Bulk Millet Enquiry from ${business}`,
       text: textBody,
       reply_to: email
