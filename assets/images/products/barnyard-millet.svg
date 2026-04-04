@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Barnyard millet">
+  <rect width="900" height="650" fill="#edf2df"/>
+  <ellipse cx="450" cy="355" rx="320" ry="170" fill="#c9d8ac"/>
+  <ellipse cx="450" cy="330" rx="300" ry="145" fill="#98b876"/>
+  <g fill="#f3e6bf">
+    <circle cx="320" cy="330" r="16"/><circle cx="360" cy="370" r="13"/><circle cx="410" cy="300" r="15"/><circle cx="470" cy="365" r="15"/><circle cx="525" cy="315" r="14"/><circle cx="575" cy="352" r="15"/>
+  </g>
+  <text x="50" y="95" fill="#3f5a35" font-size="58" font-family="Georgia, serif">Barnyard Millet</text>
+</svg>

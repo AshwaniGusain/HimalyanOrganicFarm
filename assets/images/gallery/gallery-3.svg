@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Millet ready for export">
+  <rect width="1200" height="800" fill="#e7eff7"/>
+  <path d="M100 520h260v180H100zM420 490h260v210H420zM740 450h320v250H740z" fill="#7b9bb9"/>
+  <path d="M100 520h260v60H100zM420 490h260v60H420zM740 450h320v60H740z" fill="#557a9f"/>
+  <path d="M0 640C220 610 460 680 730 640C920 610 1030 630 1200 610V800H0Z" fill="#7fa26e"/>
+  <text x="60" y="110" fill="#24445f" font-size="62" font-family="Georgia, serif">Export-Ready Organic Lots</text>
+</svg>
