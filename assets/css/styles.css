@@ -673,6 +673,16 @@ p {
   background: #fde8e4;
 }
 
+/* ─── AdSense banner ─────────────────────────────────── */
+.adsense-banner {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 1rem 0;
+  text-align: center;
+  overflow: hidden;
+}
+
 /* ─── Footer ────────────────────────────────────────── */
 .site-footer {
   background: linear-gradient(160deg, #1b4332 0%, #2d6a4f 100%);
